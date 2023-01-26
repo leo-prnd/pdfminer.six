@@ -17,7 +17,7 @@ setup(
     package_data={"pdfminer": ["cmap/*.pickle.gz", "py.typed"]},
     install_requires=[
         "charset-normalizer >= 2.0.0",
-        "cryptography >= 36.0.0",
+        # "cryptography >= 36.0.0",
         'typing_extensions; python_version < "3.8"',
     ],
     extras_require={
